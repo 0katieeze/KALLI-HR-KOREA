@@ -1210,6 +1210,11 @@ margin-bottom: 100px;
   #career.section {
     padding: 70px 32px;
   }
+  .job {
+    height: 300px;
+  }
+
+
 
   .service__extra {
     /* align-items: flex-end; */
@@ -1234,6 +1239,12 @@ margin-bottom: 100px;
   .career__interest svg {
     right: 27%;
     /* margin-top: 90px; */
+
+
+
+
+
+
 }
 
 
