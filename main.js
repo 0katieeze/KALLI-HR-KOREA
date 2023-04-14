@@ -109,7 +109,7 @@ function scrollIntoView(selector) {
 
 
 // Popup
-let popup = document.getElementById("popup");
+let popup = document.getElementById("#popup");
 
 function openPopup() {
   popup.classList.add("open");
