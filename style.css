@@ -638,7 +638,7 @@ svg {
   display: block;
   margin: auto;
   max-width: 700px;
-  max-height: 850px;
+  max-height: 925px;
   /* background-color: var(--color-white); */
   border-radius: var(--size-border-light-radius);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 8px 0px;
