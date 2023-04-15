@@ -705,10 +705,6 @@ svg {
 } */
 
 
-#application_attachment_file {
-padding: 8px;
-}
-
 #submit__button {
   width: 240px;
   border: 2px solid white;
@@ -721,6 +717,7 @@ padding: 8px;
   font-size: var(--font-regular-medium);
   font-weight: var(--weight-extend-bold);
   margin: auto;
+  margin-top: 15px;
   text-align: center;
   display: block;
 }
@@ -828,29 +825,30 @@ margin-bottom: 100px;
 
 }
 
-#contact button {
+.contact__link {
+  margin-right: 15px;
+}
+
+.contact__link i {
   margin-top: 40px;
-  width: 70px;
-  height: 70px;
+  font-size: 30px;
+  color: white;
+  width: 55px;
+  height: 55px;
+  /* line-height: 55px; */
+  border: 2px solid var(--color-white);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: .5s;
+
   /* margin: auto; */
 }
 
-.contact__link {
-  margin-right: 15px;
+.contact__link i:hover {
+  background-image: linear-gradient(180deg, var(--color--light-purple), var(--color--darker-indigo) )
 }
-.contact__link img {
-  width: 35px;
-  padding: auto 20px;
-}  
-
-.contact__link a {
-  color: var(--color-white);
-  font-size: 35px;
-}  
 
 
 #contact.section {
@@ -1037,18 +1035,13 @@ margin-bottom: 100px;
     font-size: var(--font-large);
   }
 
-  #contact button {
-    width: 60px;
-    height: 60px;
-  }
-  .contact__link img {
-    width: 30px;
-  }
 
-  .contact__link a {
-    font-size: 30px;
+  .contact__link i {
+    /* margin-top: 40px; */
+    font-size: 25px;
+    width: 48px;
+    height: 48px;
   }
-
   /* .contact__rights {
     max-width: 200px;
   } */
@@ -1479,14 +1472,9 @@ margin-bottom: 100px;
     margin-right: 14px;
   }
 
-  .contact__link img {
-    width: 22px;
-    padding: auto 16px;
-  }  
-  
-  .contact__link a {
+  /* .contact__link a {
     font-size: 22px;
-  }  
+  }   */
 
   .contact__rights, .footer_businessInfo {
     font-size: var(--font-micro);
