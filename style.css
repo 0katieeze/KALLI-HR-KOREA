@@ -1178,6 +1178,22 @@ margin-bottom: 100px;
     align-items: center;
   } */
 
+  #navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left:24px;
+    padding-right:24px;
+  }
+
+  #navbar.navbar--dark {
+    padding-left:19px;
+    padding-right:19px;
+  }
+
+  .navbar__toggle-btn {
+    right: 5;
+  }
+
   .navbar__logo img {
     width: 130px;
   }
@@ -1195,11 +1211,7 @@ margin-bottom: 100px;
   }
 
 
-
-  #navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+ 
 
   .navbar__menu {
     flex-direction: column;
