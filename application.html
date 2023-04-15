@@ -90,13 +90,14 @@
         <input id="application_attachment_file" name="file" accept=".docx,.pdf" required placeholder="Slect CV" type="file"> <br>
         
         <label for="application__content" >What would you like to tell us? *</label>
-        <textarea id="message" name="message"  minlength="20" autocomplete="off" class="application__content__form" rows="10"  required="required" placeholder="What is your inquiry about?" type="text" ></textarea> <br>
+        <!-- <textarea id="message" name="message"  minlength="20" autocomplete="off" class="application__content__form" rows="10"  required="required" placeholder="What is your inquiry about?" type="text" ></textarea> <br> -->
+        <textarea type="hidden" name="_next" value="www.kaalikoreahr.com/thankyou.html" id="message"  minlength="20" autocomplete="off" class="application__content__form" rows="10"  required="required" placeholder="What is your inquiry about?"></textarea> <br>
         
         <input id="submit__button"  name="submit"   value="Submit to apply" type="submit">
         
         
         
-        <input type="hidden" name="_next" value="www.kaalikoreahr.com/thankyou.html">
+        <!-- <input type="hidden" name="_next" value="www.kaalikoreahr.com/thankyou.html"> -->
         <input type="hidden" name="_subject" value="New submission!">
 
 
