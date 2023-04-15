@@ -69,7 +69,6 @@
 
 
       <form id="form__submitted"  action="https://formsubmit.co/kdj4027@gmail.com" method="POST" class="career__application">
-        <input type="hidden" name="_next" value="https://www.kaalikoreahr.com/pages/thankyou.html">
         <input for="application__inquiry" >What position are you appling for? *</input>
         <input id="which_position" name="application__inquiry" required placeholder="Which position" type="text">
         <br>
@@ -86,13 +85,14 @@
         <br>
         <label for="application__email">What is your email? *</label>
         <input id="application__email" name="application__email" name="email" required placeholder="kaalihrkorea@example.com" type="email"> <br>
-
+        
         <label for="application_attachment">We will discuss together based on your CV. *</label>
         <input id="application_attachment_file" name="file" accept=".docx,.pdf" required placeholder="Slect CV" type="file"> <br>
-
+        
         <label for="application__content">What would you like to tell us? *</label>
         <textarea id="message" name="message"  minlength="20" autocomplete="off" class="application__content__form" rows="10"  required="required" placeholder="What is your inquiry about?" type="text" ></textarea> <br>
-
+        
+        <input type="hidden" name="_next" value="https://www.kaalikoreahr.com/pages/thankyou.html">
         <input id="submit__button"  name="submit"   value="Submit to apply" type="submit">
 
 
