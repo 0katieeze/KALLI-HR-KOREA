@@ -400,7 +400,7 @@ s
 }
 
 .job {
-  width: 400px;
+  max-width: 400px;
   height: 290px;
   margin: 10px;
   background-color: var(--color-white);
@@ -962,7 +962,7 @@ margin-bottom: 100px;
   }
 
   .career__job__posting__jobs {
-    max-width: 800px;
+    max-width: 675px;
     margin: auto;
   }
 
